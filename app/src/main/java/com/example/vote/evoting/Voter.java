@@ -8,7 +8,7 @@ public class Voter {
     private String voterAadhar;
     public Voter( String voterName, String voterNo, String voterAadhar)
     {
-
+//
         ;
         this.voterName = voterName;
         this.voterNo = voterNo;
