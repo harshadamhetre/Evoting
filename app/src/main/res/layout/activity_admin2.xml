@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    tools:context="com.example.vote.evoting.Admin2">
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="select"
+        android:text="Add candidate"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="100dp"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toStartOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="select"
+        android:text="Remove candidate"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="270dp"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="select"
+        android:text="Show database"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="345dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/addbutton" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="Modify candidate"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="196dp"
+        android:layout_marginEnd="23dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Edit information"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="41dp"
+        android:textColor="@android:color/background_light"
+        android:text="Voter"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/addvoter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="ADD VOTER"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_above="@+id/bt9"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:id="@+id/bt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignTop="@+id/addvoter"
+        android:background="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:text="MODIFY VOTER" />
+
+
+    <Button
+        android:id="@+id/bt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/addvoter"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="SHOW DATABASE"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/bt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt9"
+        android:layout_alignStart="@+id/bt8"
+        android:background="@android:color/holo_blue_light"
+        android:text="REMOVE VOTER"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

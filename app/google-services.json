@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715771518210",
+    "firebase_url": "https://evote-77f35.firebaseio.com",
+    "project_id": "evote-77f35",
+    "storage_bucket": "evote-77f35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715771518210:android:728b1da59b2b5a97",
+        "android_client_info": {
+          "package_name": "com.example.vote.evoting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715771518210-a2iatcfm475ssit94mvkvn2iinsb5vrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE5Q8BNQ5kJnMw2DDYRU2PKV1CkZk8JFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
