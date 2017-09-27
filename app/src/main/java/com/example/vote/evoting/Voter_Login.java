@@ -53,8 +53,8 @@ public class Voter_Login extends AppCompatActivity {
 
                     }
                 });
-                Intent i=new Intent(getApplicationContext(),VotingProcedure.class);
-                startActivity(i);
+                //Intent i=new Intent(getApplicationContext(),VotingProcedure.class);
+                //startActivity(i);
             }
         });
   }

@@ -70,4 +70,5 @@ public class Admin3 extends AppCompatActivity {
             Toast.makeText(this,"not added",Toast.LENGTH_SHORT).show();
         }
     }
+
 }

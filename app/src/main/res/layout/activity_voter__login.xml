@@ -51,6 +51,7 @@
         android:layout_alignTop="@+id/textView7"
         android:ems="10"
         android:maxLength="12"
+
         android:hint="Enter your aadhar number"
         android:inputType="number"
         android:textColor="@android:color/background_light" />

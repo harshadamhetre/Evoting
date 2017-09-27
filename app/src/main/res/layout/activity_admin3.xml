@@ -67,15 +67,15 @@
         android:id="@+id/et19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true"
         android:layout_marginBottom="59dp"
         android:ems="10"
-        android:hint="Enter your date of birth"
+        android:hint="dd.mm.yyyy"
         android:inputType="date"
         android:textColor="@android:color/background_light"
         tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="332dp"
-        android:layout_above="@+id/button"
-        android:layout_alignParentEnd="true" />
+        tools:layout_editor_absoluteY="332dp" />
 
     <Button
         android:id="@+id/button"
